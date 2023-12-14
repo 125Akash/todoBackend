@@ -14,7 +14,7 @@ const auth = require("./middleware/auth");
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://todo-frontend-eight-lyart.vercel.app",
   })
 );
 app.use(cookieParser());
